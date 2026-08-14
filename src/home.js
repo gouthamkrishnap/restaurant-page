@@ -3,6 +3,8 @@ import restaurantImage from "./images/The_Batcave_Bistro.png"
 function homeTab() {
     const content = document.querySelector("#content");
 
+    content.textContent = "";
+
     const heading = document.createElement("h1");
     heading.textContent = "Dine in the Shadows";
 

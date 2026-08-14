@@ -1,6 +1,8 @@
 function aboutTab() {
     const content = document.querySelector("#content");
 
+    content.textContent = "";
+
     const heading = document.createElement("h1");
     heading.textContent = "ABOUT US";
 
