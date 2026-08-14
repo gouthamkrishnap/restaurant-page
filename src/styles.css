@@ -63,3 +63,19 @@ p {
     font-size: 1.2rem;
     margin-bottom: 20px;
 }
+
+.menu-item {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #181818;
+    border: 1px solid #333;
+    border-radius: 10px;
+}
+
+.menu-item h2 {
+    margin-bottom: 10px;
+}
+
+.menu-item p {
+    margin-bottom: 0;
+}
